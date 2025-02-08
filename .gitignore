@@ -71,3 +71,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+Textures/SubstanceDesigner/.autosave/
+
+Textures/SubstancePainter/Attic_autosave_0.spp
+
+Textures/SubstancePainter/BackupAttic.spp
