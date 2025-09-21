@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3157003241" Type="User" Language="SFX" Hash="{1850913E-8C66-8CEA-258C-A899F2B0F2DA}">
+			<ShortName>test</ShortName>
+			<Path>test.bnk</Path>
+			<Media>
+				<File Id="762578400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pause.wav</ShortName>
+					<CachePath>SFX/Pause_2D58C563.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4258653052" Name="test_event" DurationType="OneShot" DurationMin="0.629499" DurationMax="0.629499">
+					<MediaRefs>
+						<MediaRef Id="762578400"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4AEC1C64-CCEA-8ACA-B6D0-40A528C2F098}</FileHash>
+</SoundBanksInfo>
